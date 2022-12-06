@@ -41,15 +41,14 @@
     position: relative;
     width: 60px;
     height: 60px;
-    background: url('https://img.icons8.com/plumpy/512/menu--v2.png');
+    background: url('https://i.ibb.co/y0cMtw1/menu.png');
     background-repeat: no-repeat;
     background-size: 60px;
     background-position: center;
     cursor: pointer;
-    opacity: 0.5;
 }
 .toggle.active {
-    background: url('https://img.icons8.com/plumpy/512/thumbnail-view.png');
+    background: url('https://i.ibb.co/y0cMtw1/menu.png');
     background-repeat: no-repeat;
     background-size:60px;
     background-position: center;
