@@ -2,7 +2,6 @@ import requests
 import datetime
 import pytz
 import pandas as pd
-from backend import Flask, render_template
 
 # Create a session to handle the requests
 session = requests.Session()
@@ -78,12 +77,3 @@ df = df.style.set_properties(**{'text-align': 'left', 'white-space': 'pre-wrap'}
 # Export the dataframe to an Excel sheet
 df.to_excel("assignments.xlsx", index=False)
 
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    data = pd.read_excel("assignments.xlsx")
-    return render_template("canvas.html", data=data.to_html())
-
-if __name__ == '__main__':
-    app.run(debug=True)
