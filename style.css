@@ -62,7 +62,7 @@ h2 {
   }
 }
 
-.button {
+button {
   background-color: #5A5A5A;
   border: none;
   color: white;
@@ -77,4 +77,4 @@ h2 {
   cursor: pointer;
 }
 
-.button:hover {opacity: 1}
+button:hover {opacity: 1}
