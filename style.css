@@ -60,3 +60,43 @@ h2 {
     font-size: 1.5rem;
   }
 }
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+@media(max-width: 500px) {
+  .btn {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+  }
+}
+
+.btn-learn-more {
+  margin-top: 1rem;
+}
+
+@media(max-width: 500px) {
+  .btn-learn-more {
+    margin-top: 0.5rem;
+  }
+}
